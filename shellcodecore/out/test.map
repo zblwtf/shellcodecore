@@ -1,0 +1,59 @@
+ test
+
+ Timestamp is 631c227d (Sat Sep 10 13:37:01 2022)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000c6cH .text$mn                CODE
+ 0002:00000000 0000001cH .rdata                  DATA
+ 0002:0000001c 00000000H .edata                  DATA
+ 0002:0000001c 00000020H .rdata$voltmd           DATA
+ 0002:0000003c 00000058H .rdata$zzzdbg           DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___AbsoluteZero            00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table  00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table_size 00000000     <absolute>
+ 0000:00000000       ___arm64x_native_entrypoint 00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata 00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata_count 00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000000       ___enclave_config          00000000     <absolute>
+ 0000:00000000       ___guard_check_icall_a64n_fptr 00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_count     00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_table     00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___guard_flags             00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat    00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat_copy 00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map         00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points 00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points_count 00000000     <absolute>
+ 0001:00000000       ??0workspace@@QAE@AAUmsvc@@@Z 00401000 f i main.obj
+ 0001:000003e5       ??1workspace@@QAE@XZ       004013e5 f i main.obj
+ 0001:00000404       ?LoadPE@@YAIAAUkernel@@AAUmsvc@@AAUlogstream@@AAUworkspace@@KPAU_IMAGE_SECTION_HEADER@@K@Z 00401404 f   main.obj
+ 0001:00000661       _entry                     00401661 f   main.obj
+ 0001:00000789       ?GetProcAddressWithHash@@YAPAXKK@Z 00401789 f   base.obj
+ 0001:0000086c       ??0cabinet@@QAE@ABUkernel@@@Z 0040186c f   core_def.obj
+ 0001:000008f7       ??0kernel@@QAE@XZ          004018f7 f   core_def.obj
+ 0001:00000977       ??0msvc@@QAE@ABUkernel@@@Z 00401977 f   core_def.obj
+ 0001:00000a7f       ??0logstream@@QAE@AAUmsvc@@PBD@Z 00401a7f f   logstream.obj
+ 0001:00000ad1       ??1logstream@@QAE@XZ       00401ad1 f   logstream.obj
+ 0001:00000aeb       ??6logstream@@QAEAAU0@H@Z  00401aeb f   logstream.obj
+ 0001:00000b5a       ??6logstream@@QAEAAU0@PBD@Z 00401b5a f   logstream.obj
+ 0001:00000b7f       ?flush@logstream@@QAEXXZ   00401b7f f   logstream.obj
+ 0001:00000bcb       ?write@logstream@@QAEKPBXKK@Z 00401bcb f   logstream.obj
+ 0002:0000001c       ___volatile_metadata       0040201c     <linker-defined>
+
+ entry point at        0001:00000661
+
+ Static symbols
+
